@@ -1,5 +1,5 @@
 <!--A constante dataset recebe uma lista de objetos em array, denominados id's e cada um possui uma numeração que será captada aplicação do cardpio.js
-Esses objetos possui quatro itens que recebem uma string.-->
+Esses objetos possui quatro itens que recebem uma string. O javascript irá atuar na página fazendo com que o cardápio apareça de forma dinâmica. -->
 
 
 const dataset = [
