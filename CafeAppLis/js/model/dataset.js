@@ -1,3 +1,7 @@
+<!--A constante dataset recebe uma lista de objetos em array, denominados id's e cada um possui uma numeração que será captada aplicação do cardpio.js
+Esses objetos possui quatro itens que recebem uma string.-->
+
+
 const dataset = [
   {
     id: 1,
