@@ -14,63 +14,82 @@
   <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Estilo da aplicação -->
+  <!--Link usado para o CSS atuar. -->
   <link rel="stylesheet" href="css/index.css">
 
-
+<!--Fechamento do head.-->
 </head>
 
+<!-- Inicia-se o elemento body, onde fica visível todo conteúdo que sejá exibido na tela para o usuário.--> 
 <body>
-
+<!--O elemento header, é o cabeçalho da página, aonde se inicia a navegação do site. É possível ter a logotipo, barra de pesquisa do site...-->
   <header>
+    
     <!-- Toolbar -->
+    <!-- O nav, é um elemento de navegação na pagina por meio de links. -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <!-- O div representa-se como um container, ele agrupa conteúdo e dados por meio de classes e id.-->
       <div class="container-fluid">
+        <!--o elemtento a , associado ao atributo href, permite a hiperligação de páginas por meio de links. -->
         <a class="navbar-brand" href="#">
           Coffee
+          <!-- Elemento de comentário lateral, de escrita pequena. A palavra Arábica ficará como uma nota lateral. -->
           <small>Arábica</small>
+        <!--Fechamento do hiperlink.-->
         </a>
-
+        <!-- A tag apresenta um botão clicável para ser exibido na página. -->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <!--O span é um elemento de container de linha,pode agrupar elementos por classe e por id. -->
           <span class="navbar-toggler-icon"></span>
+          <!--Fechando a tag do botão.-->
         </button>
-
+        <!--O div é um container genérico, de conteúdo. -->
         <div class="collapse navbar-collapse" id="navbarNav">
+          <!--A tag ul inicia uma lista desordenada, e em seguida os itens, a lista estará dentro do div.-->
           <ul class="navbar-nav">
             <li class="nav-item">
+              <!--Hiperlink Home-->
               <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
+            </li> 
+            <!--Item com menu de navegação para o cardápio-->
             <li class="nav-item">
               <a class="nav-link" href="./cardapio.html">Cardápio</a>
             </li>
             <li class="nav-item">
+              <!--Hiperlink para a aba Sobre-->
               <a class="nav-link" href="#">Sobre</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
+    <!-- Fechamento das tags e do header-->
   </header>
-
+  
+  <!Menu principal da página, importante parte do body, e é a funcionalidade central de toda aplicação web. -->
   <main>
+    <!-- Seções de navegações na página, nesse caso composta por div e botões. -->
     <section>
       <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
+          <!--Botões clicáveis-->
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
+        </div> <!--Fechamento do conteiner.-->
         <div class="carousel-inner">
           <div class="carousel-item active">
-
+             <!--Imagem que será exibida na página. 
             <img src="https://images.unsplash.com/photo-1609593147714-46c546d38137?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2551&q=80" class="d-block w-100" alt="...">
-
+<!Novamente os elementos div se repetem, criando o container, com uma novidade do h5, elemento que dá um destaque na página, 
+como elementos de cabeçalho de cada seção, e do paragrafo em seguida, adicionando um trecho de texto sobre a imagem acima.-->
             <div class="carousel-caption d-none d-md-block">
               <h5>First slide label</h5>
               <p>Some representative placeholder content for the first slide.</p>
-            </div>
-          </div>
           <div class="carousel-item">
 
+            </div>
+          </div>
             <img src="https://images.unsplash.com/photo-1600093463592-8e36ae95ef56?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" class="d-block w-100" alt="...">
 
             <div class="carousel-caption d-none d-md-block">
