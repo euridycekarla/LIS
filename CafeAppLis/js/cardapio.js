@@ -1,10 +1,10 @@
-<!--Importação de itens do arquivo dataset.js,  para ser aplicado no código.-->
+/*Importação de itens do arquivo dataset.js,  para ser aplicado no código.*/
 import itens from './model/dataset.js';
 
-<!--Importação de foodsModel do arquivo foods.js para ser aplicado no código.-->
+/*Importação de foodsModel do arquivo foods.js para ser aplicado no código.*/
 import foodsModel from './model/foods.js';
 
-<!--os itens de foodsModel será carregado pela função load.-->
+/*os itens de foodsModel será carregado pela função load.*/
 foodsModel.load(itens);
 <!-- variável atribuída , e readAll() será a função executada em foodsModel-->
 let foods = foodsModel.readAll();
